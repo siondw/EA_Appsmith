@@ -9,7 +9,7 @@
       "isDefault": false
     },
     {
-      "id": "Coach_Add_Game",
+      "id": "Coach_Edit_Games",
       "isDefault": false
     },
     {
@@ -28,6 +28,9 @@
   "color": "#E3DEFF",
   "icon": "product",
   "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
     "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [],

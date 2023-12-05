@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Coach_Add_Game",
-    "slug": "coach-add-game",
+    "name": "Coach_Edit_Games",
+    "slug": "coach-edit-games",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 890,
+          "bottomRow": 1080,
           "containerStyle": "none",
           "snapRows": 88,
           "parentRowSpace": 1,
@@ -25,9 +25,21 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Coach_Edit_Games_Get_Simplified_Games",
+              "name": "Get_Simplified_Games",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Coach_Add_Game",
+        "id": "Coach_Edit_Games",
         "deleted": false,
         "policies": [],
         "userPermissions": []
