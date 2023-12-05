@@ -19,6 +19,18 @@
     {
       "id": "Home Screen",
       "isDefault": true
+    },
+    {
+      "id": "Standings",
+      "isDefault": false
+    },
+    {
+      "id": "Team_Stats_ANd_Games",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
