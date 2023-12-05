@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Coach_Edit_Games",
-    "slug": "coach-edit-games",
+    "name": "Home Screen",
+    "slug": "home-screen",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 970,
+          "bottomRow": 800,
           "containerStyle": "none",
           "snapRows": 88,
           "parentRowSpace": 1,
@@ -25,21 +25,10 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Coach_Edit_Games_Get_Simplified_Games",
-              "name": "Get_Simplified_Games",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Coach_Edit_Games",
+        "id": "Home Screen",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656cb16448fe2047c3a447ab_656e76948b717b783bb71662"
+  "gitSyncId": "656cb16448fe2047c3a447ab_656f46392a191d4ddacffc01"
 }

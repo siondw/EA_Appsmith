@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Game by Team",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Game By Week",
@@ -15,6 +15,10 @@
     {
       "id": "Coach_Add_Team",
       "isDefault": false
+    },
+    {
+      "id": "Home Screen",
+      "isDefault": true
     }
   ],
   "viewMode": false,

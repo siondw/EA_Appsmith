@@ -4,7 +4,7 @@
     "mobileBottomRow": 90,
     "widgetName": "Coach_Button",
     "onClick": "{{navigateTo('Coach_Add_Game', {}, 'SAME_WINDOW');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#fffde5",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -20,16 +20,13 @@
     "animateLoading": true,
     "parentColumnSpace": 21.3125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 54,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "leftColumn": 53,
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Coach?",
     "isDisabled": false,
     "key": "u1mmhi8jkd",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 63,
     "isDefaultClickDisabled": true,
     "widgetId": "5d6v8lj5zh",
     "minWidth": 120,
