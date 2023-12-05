@@ -265,7 +265,7 @@
         "customColumn1": {
             "boxShadow": "{{Simplified_Games.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{JSObject1.myFun1();}}",
+            "onClick": "{{JSObject1.myFun1();\nGet_Simplified_Games.run()}}",
             "buttonColor": "#ef4444",
             "isEditable": false,
             "notation": "standard",
