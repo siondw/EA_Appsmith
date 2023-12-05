@@ -66,7 +66,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701747042880,
-    "originalBottomRow": 94,
+    "originalBottomRow": 93,
     "primaryColumnId": "game_id",
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 55,
@@ -348,7 +348,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 20,
+    "originalTopRow": 19,
     "mobileLeftColumn": 15,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{Add_Game.run()}}",
+    "onSubmit": "{{Add_Game.run().then(() => {\n  closeModal('');\n  Get_Simplified_Games.run();\n}).catch(() => {\n  showAlert('Failed to Add Game. Please try again.', 'error');\n});}}",
     "topRow": 16,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
