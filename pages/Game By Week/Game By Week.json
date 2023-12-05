@@ -1,7 +1,8 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Game By Week",
+    "slug": "game-by-week",
+    "customSlug": "",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 780,
+          "bottomRow": 920,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,22 +30,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_GetAllTeamAbbr",
-              "name": "GetAllTeamAbbr",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Page1_GetTeamSchedule",
-              "name": "GetTeamSchedule",
+              "id": "Game By Week_GetWeekGames",
+              "name": "GetWeekGames",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "SelectTeam.selectedOptionValue"
+                "Week_Range.end",
+                "Week_Range.start"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -52,15 +44,16 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Game By Week",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656a299f8cd4a1243d499d17_656a299f8cd4a1243d499d19"
+  "gitSyncId": "656cb16448fe2047c3a447ab_656e6fd08b717b783bb71659"
 }

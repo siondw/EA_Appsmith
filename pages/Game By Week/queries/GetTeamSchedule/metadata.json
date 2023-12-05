@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Game By Week",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +37,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -53,9 +53,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T00:13:42Z"
+    "createdAt": "2023-12-05T00:33:20Z"
   },
-  "id": "Page1_GetTeamSchedule",
+  "id": "Game By Week_GetTeamSchedule",
   "deleted": false,
-  "gitSyncId": "656cb16448fe2047c3a447ab_656e6b368b717b783bb71653"
+  "gitSyncId": "656cb16448fe2047c3a447ab_656e6fd08b717b783bb7165c"
 }
