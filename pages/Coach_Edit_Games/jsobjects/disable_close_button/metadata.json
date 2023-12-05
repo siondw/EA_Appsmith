@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "disable_close_button",
+    "pageId": "Coach_Edit_Games",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "isCloseButtonDisabled",
+        "value": "false"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Coach_Edit_Games_disable_close_button",
+  "deleted": false,
+  "gitSyncId": "656cb16448fe2047c3a447ab_656f78cd2a191d4ddacffc0d"
+}
