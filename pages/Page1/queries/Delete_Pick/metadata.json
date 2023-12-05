@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "Delete_Pick",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -58,9 +58,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-05T22:46:39Z"
   },
-  "id": "Page1_Api1",
+  "id": "Page1_Delete_Pick",
   "deleted": false,
   "gitSyncId": "656cb16448fe2047c3a447ab_656fa84f2a191d4ddacffc35"
 }
