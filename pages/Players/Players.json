@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 620,
+          "bottomRow": 960,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,18 +29,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Players_JSObject1.myFunc1",
-              "name": "JSObject1.myFunc1",
-              "collectionId": "Players_JSObject1",
+              "id": "Players_Passing_TD_leaders",
+              "name": "Passing_TD_leaders",
               "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  let inputValue = Select1.selectedOptionValue;\n  let processedValue = inputValue.replace(/\\s+/g, '%20');\n  return processedValue;\n}"
-              ],
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Players_Passing_leaders",
               "name": "Passing_leaders",
@@ -50,8 +45,24 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Players_Receiving_TD_leaders",
+              "name": "Receiving_TD_leaders",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Players_Receiving_leaders",
               "name": "Receiving_leaders",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Players_Rushing_TD_leaders",
+              "name": "Rushing_TD_leaders",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -73,6 +84,19 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Players_JSObject1.myFunc1",
+              "name": "JSObject1.myFunc1",
+              "collectionId": "Players_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  let inputValue = Select1.selectedOptionValue;\n  let processedValue = inputValue.replace(/\\s+/g, '%20');\n  return processedValue;\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],

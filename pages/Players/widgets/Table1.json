@@ -127,7 +127,7 @@
     "hideCard": false,
     "mobileRightColumn": 34,
     "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "primaryColumns.customColumn1.onClick"}],
     "borderWidth": "1",
     "primaryColumns": {
         "qbr": {
@@ -324,6 +324,7 @@
         },
         "customColumn1": {
             "computedValue": "",
+            "onClick": "{{JSObject2.myFun1();}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Link",
