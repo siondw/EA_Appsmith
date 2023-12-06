@@ -66,18 +66,18 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701884772181,
+    "columnUpdatedAt": 1701891279386,
     "originalBottomRow": 102,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 107,
     "widgetName": "injury_history",
     "defaultPageSize": 0,
     "columnOrder": [
-        "player_name",
+        "customColumn1",
         "injury",
         "duration",
+        "player_name",
         "injury_id",
-        "customColumn1",
         "EditActions1"
     ],
     "dynamicPropertyPathList": [
@@ -85,10 +85,12 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 21,
+    "bottomRow": 24,
     "columnWidthMap": {
+        "duration": 160,
+        "customColumn1": 60,
         "player_name": 108,
-        "injury": 106
+        "injury": 138
     },
     "parentRowSpace": 10,
     "hideCard": false,
