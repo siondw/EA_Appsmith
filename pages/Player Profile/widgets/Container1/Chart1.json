@@ -10,8 +10,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 35,
-    "bottomRow": 64,
+    "topRow": 26,
+    "bottomRow": 55,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -42,7 +42,7 @@
         {"key": "accentColor"},
         {"key": "fontFamily"}
     ],
-    "leftColumn": 19,
+    "leftColumn": 21,
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {
@@ -95,7 +95,7 @@
     "showDataPointLabel": false,
     "key": "4hy78x1zs1",
     "isDeprecated": false,
-    "rightColumn": 43,
+    "rightColumn": 38,
     "widgetId": "9s1clw8jb9",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "minWidth": 450,
@@ -109,11 +109,11 @@
     "mobileTopRow": 24,
     "responsiveBehavior": "fill",
     "yAxisName": "Revenue($)",
-    "originalTopRow": 35,
+    "originalTopRow": 26,
     "chartName": "Sales Report",
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 20,
     "xAxisName": "Product Line",
-    "originalBottomRow": 64,
+    "originalBottomRow": 55,
     "chartType": "COLUMN_CHART"
 }

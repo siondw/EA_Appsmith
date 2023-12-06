@@ -29,6 +29,19 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Players_JSObject1.myFunc1",
+              "name": "JSObject1.myFunc1",
+              "collectionId": "Players_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  let inputValue = Select1.selectedOptionValue;\n  let processedValue = inputValue.replace(/\\s+/g, '%20');\n  return processedValue;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Players_Passing_TD_leaders",
               "name": "Passing_TD_leaders",
               "confirmBeforeExecute": false,
@@ -84,19 +97,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Players_JSObject1.myFunc1",
-              "name": "JSObject1.myFunc1",
-              "collectionId": "Players_JSObject1",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  let inputValue = Select1.selectedOptionValue;\n  let processedValue = inputValue.replace(/\\s+/g, '%20');\n  return processedValue;\n}"
-              ],
               "timeoutInMillisecond": 10000
             }
           ],
