@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Simplified_Games.updatedRow}}",
+      "body": "{\n\t\t\"game_id\": \"{{Simplified_Games.selectedRow.game_id}}\",\n    \"home_score\": \"{{Simplified_Games.selectedRow.home_score}}\",\n\t\t\"away_score\": \"{{Simplified_Games.selectedRow.away_score}}\"\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -52,7 +52,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Simplified_Games.updatedRow"
+      "Simplified_Games.selectedRow.away_score",
+      "Simplified_Games.selectedRow.game_id",
+      "Simplified_Games.selectedRow.home_score"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

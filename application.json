@@ -13,10 +13,6 @@
       "isDefault": false
     },
     {
-      "id": "Coach_Add_Team",
-      "isDefault": false
-    },
-    {
       "id": "Home Screen",
       "isDefault": true
     },
@@ -29,7 +25,11 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Edit_Picks",
+      "isDefault": false
+    },
+    {
+      "id": "Game_Dashboard",
       "isDefault": false
     }
   ],

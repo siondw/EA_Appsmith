@@ -1,1 +1,5 @@
-{{Simplified_Games.updatedRow}}
+{
+		"game_id": "{{Simplified_Games.selectedRow.game_id}}",
+    "home_score": "{{Simplified_Games.selectedRow.home_score}}",
+		"away_score": "{{Simplified_Games.selectedRow.away_score}}"
+}

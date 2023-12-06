@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Edit_Picks",
+    "slug": "edit-picks",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_All_Picks",
+              "id": "Edit_Picks_All_Picks",
               "name": "All_Picks",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,14 +39,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Edit_Picks",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "656cb16448fe2047c3a447ab_656fa6662a191d4ddacffc30"

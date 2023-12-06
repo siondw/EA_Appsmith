@@ -65,7 +65,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701747042880,
+    "columnUpdatedAt": 1701832370050,
     "originalBottomRow": 93,
     "primaryColumnId": "game_id",
     "defaultSelectedRowIndices": [0],
@@ -92,7 +92,11 @@
     "hideCard": false,
     "mobileRightColumn": 49,
     "parentColumnSpace": 19.8125,
-    "dynamicTriggerPathList": [{"key": "primaryColumns.customColumn1.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "primaryColumns.customColumn1.onClick"},
+        {"key": "primaryColumns.EditActions1.onSave"},
+        {"key": "primaryColumns.home_score.onSubmit"}
+    ],
     "borderWidth": "1",
     "primaryColumns": {
         "EditActions1": {
@@ -112,7 +116,7 @@
             "validation": {},
             "isCellVisible": true,
             "isDerived": true,
-            "onSave": "{{}}",
+            "onSave": "{{UpdateGame.run().then(() => {\n  showAlert('Great success!', 'success');\n}).catch(() => {\n  showAlert('Failed to edit game.', 'error');\n});}}",
             "discardButtonVariant": "TERTIARY",
             "buttonStyle": "rgb(3, 179, 101)",
             "allowCellWrapping": false,
@@ -138,6 +142,7 @@
         },
         "home_score": {
             "computedValue": "{{Simplified_Games.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"home_score\"]))}}",
+            "onSubmit": "",
             "isEditable": true,
             "notation": "standard",
             "alias": "home_score",

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Coach_Add_Team",
-    "slug": "coach-add-team",
+    "name": "Game_Dashboard",
+    "slug": "game-dashboard",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 890,
+          "bottomRow": 490,
           "containerStyle": "none",
           "snapRows": 88,
           "parentRowSpace": 1,
@@ -26,8 +26,9 @@
           "leftColumn": 0
         },
         "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Coach_Add_Team",
+        "id": "Game_Dashboard",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -38,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656cb16448fe2047c3a447ab_656e77208b717b783bb71665"
+  "gitSyncId": "656cb16448fe2047c3a447ab_656fe8292a191d4ddacffc57"
 }
