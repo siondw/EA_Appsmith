@@ -19,7 +19,7 @@
     "fontFamily": "Nunito Sans",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 14,
+    "leftColumn": 13,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -29,10 +29,10 @@
     "text": "Receiving Leaderboard",
     "key": "789runylb0",
     "isDeprecated": false,
-    "rightColumn": 30,
+    "rightColumn": 29,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "wvyt5d1rtz",
+    "widgetId": "fxbp19uitp",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",

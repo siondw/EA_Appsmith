@@ -19,7 +19,7 @@
     "fontFamily": "Nunito Sans",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 30,
+    "leftColumn": 29,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -29,10 +29,10 @@
     "text": "Passing Leaderboard",
     "key": "789runylb0",
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 46,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "uo695whrn4",
+    "widgetId": "wx7nbp8z36",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",

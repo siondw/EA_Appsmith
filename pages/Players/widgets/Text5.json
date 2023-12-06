@@ -19,7 +19,7 @@
     "fontFamily": "Nunito Sans",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -29,10 +29,10 @@
     "text": "Rushing TD Leaderboard",
     "key": "789runylb0",
     "isDeprecated": false,
-    "rightColumn": 17,
+    "rightColumn": 16,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "vsfwgutodn",
+    "widgetId": "3aisor4q2j",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",

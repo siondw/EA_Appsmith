@@ -66,7 +66,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701835145566,
-    "originalBottomRow": 106,
+    "originalBottomRow": 104,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 68,
     "widgetName": "player_game_log",
@@ -486,7 +486,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 73,
+    "originalTopRow": 71,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

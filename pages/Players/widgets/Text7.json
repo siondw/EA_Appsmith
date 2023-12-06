@@ -19,7 +19,7 @@
     "fontFamily": "Nunito Sans",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 36,
+    "leftColumn": 35,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -29,10 +29,10 @@
     "text": "Passing TD Leaderboard",
     "key": "789runylb0",
     "isDeprecated": false,
-    "rightColumn": 52,
+    "rightColumn": 51,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "cuptrcsa9t",
+    "widgetId": "0j9gah113z",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",

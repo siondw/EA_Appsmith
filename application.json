@@ -39,6 +39,10 @@
     {
       "id": "Game_Dashboard",
       "isDefault": false
+    },
+    {
+      "id": "Players",
+      "isDefault": false
     }
   ],
   "viewMode": false,

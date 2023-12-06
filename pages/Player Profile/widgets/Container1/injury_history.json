@@ -3,7 +3,7 @@
     "borderColor": "#1d4ed8",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 18,
+    "topRow": 6,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -18,7 +18,7 @@
         {"key": "primaryColumns.player_name.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 41,
+    "leftColumn": 44,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -70,7 +70,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 40,
+    "bottomRow": 28,
     "columnWidthMap": {
         "player_name": 108,
         "injury": 106
@@ -188,7 +188,7 @@
     "key": "tn1k1w7tg0",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "51rjm28w69",
     "minWidth": 450,

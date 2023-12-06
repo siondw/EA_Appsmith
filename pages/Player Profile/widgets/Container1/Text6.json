@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Game Stats",
+    "text": "Game Stats ",
     "key": "tf6xmzsx3a",
     "isDeprecated": false,
     "rightColumn": 17,
