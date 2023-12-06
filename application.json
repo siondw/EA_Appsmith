@@ -1,8 +1,44 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Players",
+      "isDefault": false
+    },
+    {
+      "id": "Player Profile",
+      "isDefault": false
+    },
+    {
+      "id": "Game by Team",
+      "isDefault": false
+    },
+    {
+      "id": "Game By Week",
+      "isDefault": false
+    },
+    {
+      "id": "Coach_Edit_Games",
+      "isDefault": false
+    },
+    {
+      "id": "Home Screen",
       "isDefault": true
+    },
+    {
+      "id": "Standings",
+      "isDefault": false
+    },
+    {
+      "id": "Team_Stats_ANd_Games",
+      "isDefault": false
+    },
+    {
+      "id": "Edit_Picks",
+      "isDefault": false
+    },
+    {
+      "id": "Game_Dashboard",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,6 +51,12 @@
   },
   "color": "#E3DEFF",
   "icon": "product",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
