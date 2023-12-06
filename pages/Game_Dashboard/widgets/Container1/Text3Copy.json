@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 0,
-    "bottomRow": 5,
+    "topRow": 1,
+    "bottomRow": 9,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -22,11 +22,12 @@
     "leftColumn": 33,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Loser",
+    "text": "{{Get_Game.data[0].loser}}",
     "key": "22dsaanf3w",
     "isDeprecated": false,
     "rightColumn": 42,
@@ -47,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 6,
     "responsiveBehavior": "fill",
-    "originalTopRow": 0,
+    "originalTopRow": 1,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 13,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 5,
+    "originalBottomRow": 9,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

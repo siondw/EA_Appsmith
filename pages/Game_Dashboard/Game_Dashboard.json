@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 490,
+          "bottomRow": 600,
           "containerStyle": "none",
           "snapRows": 88,
           "parentRowSpace": 1,
@@ -25,7 +25,42 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Game_Dashboard_get_play_by_play",
+              "name": "get_play_by_play",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.selectedGameId"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Game_Dashboard_Get_Game",
+              "name": "Get_Game",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.selectedGameId"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Game_Dashboard_get_highlights",
+              "name": "get_highlights",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.selectedGameId"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Game_Dashboard",

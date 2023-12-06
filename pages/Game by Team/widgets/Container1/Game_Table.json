@@ -25,7 +25,10 @@
         {"key": "primaryColumns.week_num.computedValue"},
         {"key": "primaryColumns.winner.computedValue"},
         {"key": "primaryColumns.yards_leader.computedValue"},
-        {"key": "borderColor"}
+        {"key": "borderColor"},
+        {"key": "primaryColumns.customColumn1.buttonColor"},
+        {"key": "primaryColumns.customColumn1.borderRadius"},
+        {"key": "primaryColumns.customColumn1.boxShadow"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -68,11 +71,11 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701736142871,
+    "columnUpdatedAt": 1701836178330,
     "originalBottomRow": 81,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 59,
-    "widgetName": "Table1",
+    "widgetName": "Game_Table",
     "defaultPageSize": 0,
     "columnOrder": [
         "week_num",
@@ -87,7 +90,8 @@
         "td_leader",
         "team_abbr",
         "ticket_price",
-        "yards_leader"
+        "yards_leader",
+        "customColumn1"
     ],
     "dynamicPropertyPathList": [],
     "compactMode": "DEFAULT",
@@ -101,7 +105,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "yards_leader": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"yards_leader\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"yards_leader\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "yards_leader",
@@ -135,7 +139,7 @@
             "verticalAlignment": "CENTER"
         },
         "home_score": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"home_score\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"home_score\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "home_score",
@@ -169,7 +173,7 @@
             "verticalAlignment": "CENTER"
         },
         "ticket_price": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ticket_price\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ticket_price\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "ticket_price",
@@ -203,7 +207,7 @@
             "verticalAlignment": "CENTER"
         },
         "away_score": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"away_score\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"away_score\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "away_score",
@@ -237,7 +241,7 @@
             "verticalAlignment": "CENTER"
         },
         "td_leader": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"td_leader\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"td_leader\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "td_leader",
@@ -270,8 +274,47 @@
             "cellBackground": "#f4f4f5",
             "verticalAlignment": "CENTER"
         },
+        "customColumn1": {
+            "boxShadow": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+            "computedValue": "",
+            "buttonColor": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "Expand",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "customColumn1",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": true,
+            "textSize": "0.875rem",
+            "iconName": "maximize",
+            "buttonStyle": "rgb(3, 179, 101)",
+            "allowCellWrapping": false,
+            "index": 10,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "Expand",
+            "labelColor": "#FFFFFF",
+            "columnType": "iconButton",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "borderRadius": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "customColumn1",
+            "currencyCode": "USD",
+            "cellBackground": "#f4f4f5",
+            "customAlias": "",
+            "verticalAlignment": "CENTER"
+        },
         "pass_yds_leader": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pass_yds_leader\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pass_yds_leader\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "pass_yds_leader",
@@ -305,7 +348,7 @@
             "verticalAlignment": "CENTER"
         },
         "team_abbr": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"team_abbr\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"team_abbr\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "team_abbr",
@@ -339,7 +382,7 @@
             "verticalAlignment": "CENTER"
         },
         "week_num": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"week_num\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"week_num\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "week_num",
@@ -373,7 +416,7 @@
             "verticalAlignment": "CENTER"
         },
         "winner": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"winner\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"winner\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "winner",
@@ -407,7 +450,7 @@
             "verticalAlignment": "CENTER"
         },
         "home_team_abbr": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"home_team_abbr\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"home_team_abbr\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "home_team_abbr",
@@ -441,7 +484,7 @@
             "verticalAlignment": "CENTER"
         },
         "away_team_abbr": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"away_team_abbr\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"away_team_abbr\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "away_team_abbr",
@@ -475,7 +518,7 @@
             "verticalAlignment": "CENTER"
         },
         "loser": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"loser\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"loser\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "loser",
@@ -509,7 +552,7 @@
             "verticalAlignment": "CENTER"
         },
         "game_id": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"game_id\"]))}}",
+            "computedValue": "{{Game_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"game_id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "game_id",
@@ -559,7 +602,7 @@
     "horizontalAlignment": "CENTER",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 15,
+    "originalTopRow": 14,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "cellBackground": "#f4f4f5",

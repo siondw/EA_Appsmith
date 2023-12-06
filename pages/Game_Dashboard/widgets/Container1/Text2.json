@@ -24,17 +24,18 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
-    "borderWidth": "5",
+    "borderWidth": "4",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "score",
+    "text": "{{Get_Game.data[0].home_score}}",
     "key": "22dsaanf3w",
     "isDeprecated": false,
     "rightColumn": 16,
-    "backgroundColor": "#86efac",
-    "textAlign": "LEFT",
+    "backgroundColor": "#f4f4f5",
+    "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "vkr6oiz7l1",
     "minWidth": 450,
