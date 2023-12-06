@@ -60,7 +60,7 @@
     "originalBottomRow": 62,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 114,
-    "widgetName": "Table4",
+    "widgetName": "Rec_Yds_Leaders",
     "defaultPageSize": 0,
     "columnOrder": [
         "player_name",
@@ -78,7 +78,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "rec_yards_total": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rec_yards_total\"]))}}",
+            "computedValue": "{{Rec_Yds_Leaders.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rec_yards_total\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "rec_yards_total",
@@ -109,7 +109,7 @@
             "verticalAlignment": "CENTER"
         },
         "player_name": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player_name\"]))}}",
+            "computedValue": "{{Rec_Yds_Leaders.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player_name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "player_name",

@@ -78,7 +78,7 @@
     "originalBottomRow": 28,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 43,
-    "widgetName": "Table1",
+    "widgetName": "Player_Snapshot",
     "defaultPageSize": 0,
     "columnOrder": [
         "customColumn1",
@@ -131,7 +131,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "qbr": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"qbr\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"qbr\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "qbr",
@@ -163,7 +163,7 @@
             "verticalAlignment": "CENTER"
         },
         "rec_tds_total": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rec_tds_total\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rec_tds_total\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "rec_tds_total",
@@ -195,7 +195,7 @@
             "verticalAlignment": "CENTER"
         },
         "total_tds_odds": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"total_tds_odds\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"total_tds_odds\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "total_tds_odds",
@@ -227,7 +227,7 @@
             "verticalAlignment": "CENTER"
         },
         "rec_yards_total": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rec_yards_total\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rec_yards_total\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "rec_yards_total",
@@ -259,7 +259,7 @@
             "verticalAlignment": "CENTER"
         },
         "pass_yards_total": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pass_yards_total\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pass_yards_total\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "pass_yards_total",
@@ -291,7 +291,7 @@
             "verticalAlignment": "CENTER"
         },
         "games_played": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"games_played\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"games_played\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "games_played",
@@ -361,7 +361,7 @@
             "verticalAlignment": "CENTER"
         },
         "bench_presses": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"bench_presses\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"bench_presses\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "bench_presses",
@@ -393,7 +393,7 @@
             "verticalAlignment": "CENTER"
         },
         "forty_time": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"forty_time\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"forty_time\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "forty_time",
@@ -425,7 +425,7 @@
             "verticalAlignment": "CENTER"
         },
         "team_abbr": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"team_abbr\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"team_abbr\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "team_abbr",
@@ -457,7 +457,7 @@
             "verticalAlignment": "CENTER"
         },
         "shuttle_time": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"shuttle_time\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"shuttle_time\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "shuttle_time",
@@ -489,7 +489,7 @@
             "verticalAlignment": "CENTER"
         },
         "player_id": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player_id\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player_id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "player_id",
@@ -521,7 +521,7 @@
             "verticalAlignment": "CENTER"
         },
         "total_tds_line": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"total_tds_line\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"total_tds_line\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "total_tds_line",
@@ -553,7 +553,7 @@
             "verticalAlignment": "CENTER"
         },
         "pass_tds_total": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pass_tds_total\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pass_tds_total\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "pass_tds_total",
@@ -585,7 +585,7 @@
             "verticalAlignment": "CENTER"
         },
         "rush_tds_total": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rush_tds_total\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rush_tds_total\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "rush_tds_total",
@@ -617,7 +617,7 @@
             "verticalAlignment": "CENTER"
         },
         "school": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"school\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"school\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "school",
@@ -649,7 +649,7 @@
             "verticalAlignment": "CENTER"
         },
         "total_yds_odds": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"total_yds_odds\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"total_yds_odds\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "total_yds_odds",
@@ -681,7 +681,7 @@
             "verticalAlignment": "CENTER"
         },
         "rush_yards_total": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rush_yards_total\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rush_yards_total\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "rush_yards_total",
@@ -713,7 +713,7 @@
             "verticalAlignment": "CENTER"
         },
         "total_yds_line": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"total_yds_line\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"total_yds_line\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "total_yds_line",
@@ -745,7 +745,7 @@
             "verticalAlignment": "CENTER"
         },
         "position": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"position\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"position\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "position",
@@ -777,7 +777,7 @@
             "verticalAlignment": "CENTER"
         },
         "player_name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player_name\"]))}}",
+            "computedValue": "{{Player_Snapshot.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"player_name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "player_name",
