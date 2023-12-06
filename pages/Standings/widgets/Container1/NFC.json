@@ -59,7 +59,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701811877448,
-    "originalBottomRow": 100,
+    "originalBottomRow": 93,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 30,
     "widgetName": "NFC",

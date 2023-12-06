@@ -71,13 +71,14 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701836178330,
+    "columnUpdatedAt": 1701836729916,
     "originalBottomRow": 81,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 59,
     "widgetName": "Game_Table",
     "defaultPageSize": 0,
     "columnOrder": [
+        "customColumn1",
         "week_num",
         "home_team_abbr",
         "winner",
@@ -90,14 +91,16 @@
         "td_leader",
         "team_abbr",
         "ticket_price",
-        "yards_leader",
-        "customColumn1"
+        "yards_leader"
     ],
     "dynamicPropertyPathList": [],
     "compactMode": "DEFAULT",
     "displayName": "Table",
     "bottomRow": 81,
-    "columnWidthMap": {"ticket_price": 115},
+    "columnWidthMap": {
+        "ticket_price": 115,
+        "customColumn1": 60
+    },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 34,
