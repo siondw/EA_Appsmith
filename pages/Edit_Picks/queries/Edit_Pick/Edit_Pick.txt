@@ -1,0 +1,4 @@
+{
+    "pick_id": "{{Table1.selectedRow.pick_id}}",
+    "team_abbr": "{{Table1.selectedRow.team_abbr}}"
+}
