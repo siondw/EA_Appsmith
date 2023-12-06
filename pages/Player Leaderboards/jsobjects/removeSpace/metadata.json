@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "removeSpace",
+    "pageId": "Player Leaderboards",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Player Leaderboards_removeSpace",
+  "deleted": false,
+  "gitSyncId": "6570969f2a191d4ddacffcd4_6570a4263161482ea90c0090"
+}

@@ -1,0 +1,5 @@
+{
+    "injury_id": {{injury_history.selectedRow.injury_id}},
+    "injury": {{injury_history.selectedRow.injury}},
+		"duration": {{injury_history.selectedRow.duration}}
+}

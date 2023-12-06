@@ -12,7 +12,7 @@
         "group"
     ],
     "topRow": 2,
-    "bottomRow": 108,
+    "bottomRow": 101,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -20,6 +20,7 @@
     "mobileRightColumn": 6,
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
+    "dynamicTriggerPathList": [],
     "leftColumn": 5,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
@@ -31,7 +32,7 @@
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 1060,
+        "bottomRow": 990,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -68,7 +69,7 @@
     "borderWidth": "1",
     "flexVerticalAlignment": "stretch",
     "key": "g87xurah3w",
-    "backgroundColor": "#FFFFFF",
+    "backgroundColor": "url('https://github.com/siondw/cy2550/raw/2f8190aa4a5514900710e8d3464389b7f726475e/matrix.bg.png')",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
@@ -87,6 +88,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 108,
+    "originalBottomRow": 101,
     "minDynamicHeight": 10
 }

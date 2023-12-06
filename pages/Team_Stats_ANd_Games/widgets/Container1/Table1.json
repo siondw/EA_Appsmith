@@ -107,7 +107,7 @@
     "hideCard": false,
     "mobileRightColumn": 16,
     "parentColumnSpace": 19.5,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "primaryColumns.customColumn1.onClick"}],
     "borderWidth": "1",
     "primaryColumns": {
         "yards_leader": {
@@ -268,6 +268,7 @@
         "customColumn1": {
             "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
+            "onClick": "{{JSObject1.myFun1();}}",
             "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

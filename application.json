@@ -41,7 +41,11 @@
       "isDefault": false
     },
     {
-      "id": "Players",
+      "id": "Player Leaderboards",
+      "isDefault": false
+    },
+    {
+      "id": "Feelin Lucky",
       "isDefault": false
     }
   ],

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1080,
+          "bottomRow": 1010,
           "containerStyle": "none",
           "snapRows": 99,
           "parentRowSpace": 1,
@@ -46,7 +46,9 @@
                 "appsmith.store.selectedPlayerId"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "Player Profile_Player_TD_props",
               "name": "Player_TD_props",
@@ -58,20 +60,18 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Player Profile_Player_yds_props",
-              "name": "Player_yds_props",
+              "id": "Player Profile_Player_data_player_id",
+              "name": "Player_data_player_id",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.selectedPlayerId"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
-              "id": "Player Profile_Player_data_player_id",
-              "name": "Player_data_player_id",
+              "id": "Player Profile_Player_yds_props",
+              "name": "Player_yds_props",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

@@ -15,6 +15,7 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton3": {
+            "onClick": "{{navigateTo('Player Leaderboards', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "chart",
             "buttonColor": "#15803d",
@@ -63,6 +64,7 @@
             "isDisabled": false
         },
         "groupButton1": {
+            "onClick": "{{navigateTo('Feelin Lucky', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "dollar",
             "buttonColor": "#86efac",
@@ -94,7 +96,11 @@
     "mobileRightColumn": 28,
     "animateLoading": true,
     "parentColumnSpace": 19.1904296875,
-    "dynamicTriggerPathList": [{"key": "groupButtons.groupButton2.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton3.onClick"}
+    ],
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "key": "vh3ql5ppnx",
