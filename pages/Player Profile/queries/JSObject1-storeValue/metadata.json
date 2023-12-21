@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "name": "storeValue",
+    "fullyQualifiedName": "JSObject1.storeValue",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -22,8 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
-    "clientSideExecution": true,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,10 +34,9 @@
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-06T18:42:09Z"
+    "userPermissions": []
   },
-  "id": "Player Profile_JSObject1.myFun2",
+  "id": "Player Profile_JSObject1.storeValue",
   "deleted": false,
-  "gitSyncId": "6570969f2a191d4ddacffcd4_6570c0813161482ea90c00a6"
+  "gitSyncId": "6570969f2a191d4ddacffcd4_6583c5866684ef0728b45ded"
 }

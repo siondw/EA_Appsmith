@@ -2,10 +2,16 @@ export default {
 	myVar1: [],
 	myVar2: {},
 	myFun1 () {
-		 window.open('https://www.draftkings.com', '_blank');
 	},
-	async myFun2 () {
-		//	use async-await or promises
-		//	await storeValue('varName', 'hello world')
+   myFun2 () {
+		return Math.floor(Math.random() * 100) + 1;
+	},
+	
+	storeValue() {
+		storeValue('progressValue', Math.floor(Math.random() * 100) + 1);
+		storeValue('benchValue', Math.floor(Math.random() * 100) + 1);
+		storeValue('shuttleValue', Math.floor(Math.random() * 100) + 1);
+		
 	}
+	
 }

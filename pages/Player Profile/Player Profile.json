@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1040,
+          "bottomRow": 1470,
           "containerStyle": "none",
           "snapRows": 99,
           "parentRowSpace": 1,
@@ -26,6 +26,19 @@
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
+          [
+            {
+              "id": "Player Profile_JSObject1.storeValue",
+              "name": "JSObject1.storeValue",
+              "collectionId": "Player Profile_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  storeValue('progressValue', Math.floor(Math.random() * 100) + 1);\n  storeValue('benchValue', Math.floor(Math.random() * 100) + 1);\n  storeValue('shuttleValue', Math.floor(Math.random() * 100) + 1);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
           [
             {
               "id": "Player Profile_Get_Injuries",

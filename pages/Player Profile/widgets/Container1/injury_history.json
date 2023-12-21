@@ -3,7 +3,7 @@
     "borderColor": "#1d4ed8",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 0,
+    "topRow": 1,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -26,7 +26,7 @@
         {"key": "primaryColumns.customColumn1.borderRadius"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 36,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -67,7 +67,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701891279386,
-    "originalBottomRow": 102,
+    "originalBottomRow": 37,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 107,
     "widgetName": "injury_history",
@@ -100,7 +100,7 @@
         {"key": "primaryColumns.customColumn1.onClick"},
         {"key": "primaryColumns.EditActions1.onSave"}
     ],
-    "borderWidth": "10",
+    "borderWidth": "0",
     "primaryColumns": {
         "duration": {
             "computedValue": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"duration\"]))}}",
@@ -322,7 +322,7 @@
     "key": "tn1k1w7tg0",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 22,
     "textSize": "0.875rem",
     "widgetId": "51rjm28w69",
     "minWidth": 450,
@@ -335,7 +335,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 74,
+    "originalTopRow": 13,
     "mobileLeftColumn": 31,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
